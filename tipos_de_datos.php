@@ -1,4 +1,5 @@
 <?php
+
     $entero = 26;
     $decimal = 123.45;
     $double = 123.43423412345;

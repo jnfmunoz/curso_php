@@ -1,4 +1,5 @@
 <?php
+
     $a = true;
     $b = false;
 
@@ -10,4 +11,5 @@
     $b = 1;
     echo "<br>";
     var_dump($a < $b || $b > 3)
+
 ?>

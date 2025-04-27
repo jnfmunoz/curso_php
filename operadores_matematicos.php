@@ -1,4 +1,5 @@
 <?php
+
     $variable = 34;
     $variable_negativa = -$variable;
 
@@ -7,4 +8,5 @@
     $c = $a + $b; // [ +, -, *, /,  % ]
 
     echo $c;
+
 ?> 
