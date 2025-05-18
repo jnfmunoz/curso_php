@@ -6,7 +6,7 @@
         return $entero1 + $entero2; 
     }
 
-    // $resultado = sumarEnteros(2,7.4);
+    $resultado = sumarEnteros(2,7.4);
     $resultado = sumarEnteros(2,7)/2;
 
     echo $resultado;
