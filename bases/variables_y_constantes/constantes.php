@@ -2,7 +2,7 @@
 
     define('CURSO', 'PHP 8 desde cero');
     define('USUARIO_1', 'Juan');
-    define ('ANIMALES', [
+    define('ANIMALES', [
         'perro',
         'gato',
         'loro',
