@@ -5,6 +5,7 @@
     $roles = $_REQUEST['roles'];
 
     $image = $_FILES['image'];
+    $patch = $_SERVER['DOCUMENT_ROOT']
 
     echo "<p>El nombre del usuario es: $nombre </p>";
     echo "<p>La edad del usuario es: $edad </p>";
@@ -17,5 +18,8 @@
     }
     echo "</ul>";
 
-    var_dump($image);
+    echo $patch;
+    // var_dump($image);
+
+
 ?>
