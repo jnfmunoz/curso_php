@@ -1,4 +1,4 @@
 <?php
-    echo "Hola Mundo";
-    
+
+    require_once('clases/Persona.php');
 ?>
