@@ -1,25 +1,33 @@
 <?php
 
-    require_once('clases/Persona.php');
+require_once('clases/Persona.php');
+/** Clases */
+// $persona1->setNombre("ZlAtan");
+// $persona1->apellido = "Ibrahimovic";
+// $persona1->edad = 43;
 
-    $persona1 = new Persona;
+// $persona2->nombre = "Viktor";
+// $persona2->apellido = "Gyökeres";
+// $persona2->edad = 27;
 
-    $persona1->setNombre("JuAn FrAncIsco");
-    $persona1->apellido = "Muñoz Grau";
-    $persona1->edad = 26;
+// var_dump($persona1); 
+// echo "<br>";
+// var_dump($persona2);
 
-    $persona2 = new Persona;
+// $persona1 = new Persona("ZlAtan", "Ibrahimovic", 43);
+// $persona2 = new Persona("Viktor", "Gyökeres", 27);
 
-    $persona2->nombre = "Camilo Andrés";
-    $persona2->apellido = "Muñoz Grau";
-    $persona2->edad = 29;
+// echo "El nombre de la persona 1 es: " . $persona1->getNombre();
+// echo "<br>";
+// echo "El nombre de la persona 2 es: " . $persona2->getNombre();
 
-    // var_dump($persona1);
-    // echo "<br>";
-    // var_dump($persona2);
+/** Herencia */
+$peruano = new Peruano;
+$peruano -> setNombre("paolo"); 
+var_dump($peruano);
 
-    echo "El nombre de la persona 1 es: " . $persona1 -> getNombre() . " " . $persona1 -> apellido;
-    echo "<br>";
-    echo "El nombre de la persona 2 es: " . $persona2 -> nombre . " " . $persona2 -> apellido;
+$chileno = new Chileno;
+$chileno -> setApellidos("Paredes", "Quintanilla");
+echo $chileno -> getApellidos();
 
 ?>
