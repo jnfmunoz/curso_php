@@ -1,22 +1,23 @@
 <?php
-    $a = 5;
-    $b = 10;
 
-    /* function test(){
-        global $a; 
-        $a = 3;
-        echo $a;
-    }  
+$a = 5;
+$b = 10;
 
-    test(); */
+/* function test(){
+    global $a; 
+    $a = 3;
+    echo $a;
+}  
 
-    function test(&$n){
-        $n = $n + 10;
-    }
+test(); */
 
-    test($a);
-    test($b);
-    echo "<br>";
-    echo $a . "<br>" . $b;
+function test(&$n){
+    $n = $n + 10;
+}
+
+test($a);
+test($b);
+echo "<br>";
+echo $a . "<br>" . $b;
     
 ?>

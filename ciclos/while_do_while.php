@@ -1,30 +1,30 @@
 <?php
 
-    $i = 10;
-    
-    // while ($i <= 20){
-    //     echo "$i <br>";
-    //     $i++;
-    // }
+$i = 10;
 
-    // do{
-    //     echo "$i <br>";
-    //     $i++;
-    // } while($i < 10);
+// while ($i <= 20){
+//     echo "$i <br>";
+//     $i++;
+// }
 
-    // echo "has salido del bucle";
+// do{
+//     echo "$i <br>";
+//     $i++;
+// } while($i < 10);
 
-    $base = 2;
-    $exponente = 5;
+// echo "has salido del bucle";
 
-    $resultado = 1;
-    $i = 1;
+$base = 2;
+$exponente = 5;
 
-    while($i <= $exponente){
-        $resultado *= $base;
-        $i++;
-    }
+$resultado = 1;
+$i = 1;
 
-    echo "El valor de $base elevado a $exponente es: $resultado";
+while($i <= $exponente){
+    $resultado *= $base;
+    $i++;
+}
+
+echo "El valor de $base elevado a $exponente es: $resultado";
 
 ?>

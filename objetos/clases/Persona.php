@@ -2,7 +2,7 @@
 
 class Persona{
 
-    public $nombre, $edad; // propiedades - attr(??
+    public $nombre, $edad; // propiedades - attr
     public $apellido1, $apellido2;
     
     // public function __construct($nombre, $apellido){
@@ -26,13 +26,19 @@ class Persona{
 
     public function getApellidos()
     {
-        return $this.apellido1 . " " . $this.apellido2;
+        return $this -> apellido1 . " " . $this -> apellido2;
     }
 }
 
 class Peruano extends Persona{    
 
     public $departamento, $ciudad;
+
+    public function setApellidos($apellido1, $apellido2){
+        parent::setApellidos($apellido1, $apellido2);
+
+        echo "Los apellidos se ingresaron con éxito.";
+    }
 }
 
 class Chileno extends Persona{

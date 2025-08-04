@@ -23,7 +23,11 @@ require_once('clases/Persona.php');
 
 /** Herencia */
 $peruano = new Peruano;
-$peruano -> setNombre("paolo"); 
+$peruano -> setNombre("paolo");
+$peruano -> setApellidos("Guerrero", "");
+
+echo "<br>";
+
 var_dump($peruano);
 
 $chileno = new Chileno;
